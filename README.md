@@ -18,7 +18,7 @@ This is an authentication API built with Django and the Django REST framework. T
 * Run the server
 
 # Few Modifications
-* Before running this project configure your email and settings from setiings.py file and utils.py file
+* Before running this project configure your email .env file
 
 # API ENDPOINTS
 * BaseUrl: 'api/user/'

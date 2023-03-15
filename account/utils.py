@@ -7,7 +7,7 @@ class Util:
         email = EmailMessage(
             subject=data['subject'],
             body=data['body'],
-            from_email=os.environ.get('EMAIL_FROM'),
+            from_email=os.environ.get('EMAIL_USER'),
             to=[data['to_email']]
         )
         print("Email" , email)
